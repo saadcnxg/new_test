@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Quiz — Human Body Atlas</title>
+<meta name="description" content="Ten questions on the human body with instant feedback." />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="pulse"></span> Human Body Atlas</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">Menu</button>
+    <nav id="siteNav" class="site-nav">
+      <a href="index.html">Home</a>
+      <a href="systems.html">Systems</a>
+      <a href="organs.html">Organs</a>
+      <a href="skeleton.html">Skeleton</a>
+      <a href="circulation.html">Circulation</a>
+      <a href="quiz.html" class="active">Quiz</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">Page 05</p>
+      <h1>Body quiz</h1>
+      <p class="lead">Ten questions drawn from the previous pages. Pick an answer to see instant feedback, then move on.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="quiz" id="quiz" aria-live="polite"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> Human Body Atlas. Educational content only — not medical advice.</p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/quiz.js"></script>
+</body>
+</html>
